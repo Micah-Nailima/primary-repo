@@ -21,48 +21,54 @@
             margin: 25px auto 10px auto;
             width: 25%;
         }
-        .subtitle {
+        #subtitle {
             text-align:center;
             font-size: 35px;
             margin-top: 0px;
             margin-bottom: 0px;
+            padding-bottom: 25px;
             color:white;
             background-color:#3c78d8;
         }
-        .subtitle2{
+        #subtitle2{
             text-align:center;
             font-size: 30px;
             margin-top: 0px;
             padding-bottom: 25px;
             padding-top: 25px;
-            color:black;
+            color: rgba(48, 48, 48, 0.82);
         }
-        .button{
-            background-color: lightgray;
+        div a{
+            display: inline-block;
+            width: 25%;
+            font-family: "Oswald Light";
             font-size: 40px;
+            color: white;
+            background-color: lightgray;
+            margin: 10px 10px 10px 10px;
+            padding: 40px 20px 40px 20px;
+            text-decoration: none;
+        }
+        .buttonclass{
             text-align: center;
-            display: block;
-            width: 100%;
-            margin-top: 25px;
-            padding-top: 25px;
-            margin-bottom: 25px;
-            padding-bottom: 25px;
+        }
+        .buttonhover:hover{
+            background-color: grey;
         }
     </style>
-    <script>
-        function strategy(){
-            window.open("strategy.pdf","_self")
-        }
-    </script>
 </head>
 <body>
 <img src="2898chevronlogoblue.png">
 <div class="fontClass">≈
     <div id="maintitle">2898 THE FLYING HEDGEHOGS</div>
-    <div class="subtitle">A BEAVERTON PUBLIC SCHOOLS ROBOTICS TEAM</div>
-    <div class="subtitle2">INTERACTIVE TECHNICAL BINDER</div>
-    <button class="button" onclick="strategy()">STRATEGY</button>
-    <button class="button">MECHANICAL DESIGN</button>
+    <div id="subtitle">A BEAVERTON PUBLIC SCHOOLS ROBOTICS TEAM</div>
+    <div id="subtitle2">INTERACTIVE TECHNICAL BINDER</div>
+</div>
+<div class="buttonclass">
+    <a class="buttonhover" href="https://clara.io/player/v2/53362c8c-00c9-4890-ae51-845dbb2b7ae5">DRIVE TRAIN</a><a class="buttonhover">ARM ASSEMBLY</a><a class="buttonhover">MANIPULATOR</a>
+</div>
+<div class="buttonclass">
+    <a class="buttonhover" >PROGRAMMING FEATURES</a><a class="buttonhover">TOPOLOGY OPTIMIZATION</a><a class="buttonhover" >STRATEGY</a>
 </div>
 </body>
 </html>
